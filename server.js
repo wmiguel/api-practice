@@ -1,5 +1,3 @@
-// this is a practice run for apis
-
 var fs = require('fs');
 var data = fs.readFileSync('words.json');
 var words = JSON.parse(data);
